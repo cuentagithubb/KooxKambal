@@ -9,13 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".astronomia"></activity>
+        <activity android:name=".carrillo" />
+        <activity android:name=".tihosuco" />
+        <activity android:name=".agricultura" />
+        <activity android:name=".videos" />
+        <activity android:name=".religion" />
+        <activity android:name=".zonas" />
         <activity
             android:name=".Principal"
             android:label="@string/title_activity_principal"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-        </activity>
-        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".historia" />
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,4 +31,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
